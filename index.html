@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quality Outfitters</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="cursor"></div>
+
+<header>
+    <div class="logo">Quality Outfitters</div>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Collection</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+
+    <!-- SMOKE CANVAS NOW BEHIND TEXT -->
+    <canvas id="smokeCanvas"></canvas>
+
+    <div class="hero-content">
+        <h1>Elegance <span>Redefined</span></h1>
+        <p>Premium suits, refined shoes, and timeless formalwear crafted for the modern gentleman.</p>
+
+        <div class="hero-buttons">
+            <button class="btn-glow magnetic">Shop Now</button>
+            <button class="btn-outline magnetic">Book Consultation</button>
+        </div>
+    </div>
+
+</section>
+
+<section id="products" class="products">
+    <h2>Collection</h2>
+
+    <div class="product-grid">
+
+        <div class="product-card">
+            <img src="images/suit1.jpg">
+            <div class="overlay">
+                <h3>Classic Suit</h3>
+                <button class="btn-glow magnetic">View</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="images/tie1.jpg">
+            <div class="overlay">
+                <h3>Luxury Tie</h3>
+                <button class="btn-glow magnetic">View</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact</h2>
+
+    <form>
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message"></textarea>
+        <button class="btn-glow magnetic">Send</button>
+    </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
